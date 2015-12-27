@@ -3,6 +3,9 @@ package com.uulookingfor.irpc.server;
 import com.uulookingfor.irpc.server.domain.TestParam;
 import com.uulookingfor.irpc.server.domain.TestResult;
 
+/**
+ * @author suxiong.sx 
+ */
 public interface TestService {
 	/**
 	 * just print some thing on service side

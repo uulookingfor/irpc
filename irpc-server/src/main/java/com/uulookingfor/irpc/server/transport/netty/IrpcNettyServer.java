@@ -18,7 +18,9 @@ import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 
-
+/**
+ * @author suxiong.sx 
+ */
 public class IrpcNettyServer implements IrpcServerConstants{
 
 	private static final EventLoopGroup bossGroup = new NioEventLoopGroup(); 

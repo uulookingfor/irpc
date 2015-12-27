@@ -5,6 +5,9 @@ import lombok.Setter;
 
 import org.springframework.beans.factory.FactoryBean;
 
+/**
+ * @author suxiong.sx 
+ */
 public class IrpcSpringConsumerBean implements FactoryBean{
 
 	@Getter @Setter private String group ;

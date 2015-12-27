@@ -15,6 +15,9 @@ import io.protostuff.Schema;
 import io.protostuff.runtime.RuntimeSchema;
 import lombok.NonNull;
 
+/**
+ * @author suxiong.sx 
+ */
 public class ProtoStuffSerializer implements Serializer{
 
 	private static final Objenesis objenesis = new ObjenesisStd(true);

@@ -4,6 +4,9 @@ import java.io.IOException;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+/**
+ * @author suxiong.sx 
+ */
 public class ServerMain {
 	
 	public static void main(String[] args) throws IOException{

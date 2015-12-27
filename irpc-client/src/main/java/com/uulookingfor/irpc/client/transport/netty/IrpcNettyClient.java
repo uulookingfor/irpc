@@ -26,6 +26,9 @@ import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
 
+/**
+ * @author suxiong.sx 
+ */
 public class IrpcNettyClient implements IrpcClientConstants, IrpcClientContext{
 	
 	@Getter @Setter private Channel channel;

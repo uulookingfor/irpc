@@ -1,10 +1,6 @@
 package com.uulookingfor.irpc.common.util;
 
 import java.nio.ByteBuffer;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.concurrent.ArrayBlockingQueue;
-import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.atomic.AtomicLong;
 
 import lombok.Getter;
@@ -15,6 +11,9 @@ import com.uulookingfor.icommon.asserts.Asserts;
 import com.uulookingfor.icommon.queue.ByteBufferBlockingQueue;
 import com.uulookingfor.irpc.common.domain.IrpcCommonConstants;
 
+/**
+ * @author suxiong.sx 
+ */
 public class UidGenerator implements IrpcCommonConstants{
 	
 	

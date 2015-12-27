@@ -12,6 +12,14 @@ import com.uulookingfor.irpc.server.TestService;
 import com.uulookingfor.irpc.server.domain.TestParam;
 import com.uulookingfor.irpc.server.domain.TestResult;
 
+import java.util.HashMap;
+import java.util.Map;
+import java.util.concurrent.ArrayBlockingQueue;
+import java.util.concurrent.BlockingQueue;
+
+/**
+ * @author suxiong.sx 
+ */
 public class ClinetMain {
 	
 	public static final int NUM_OF_THREADS = 20;

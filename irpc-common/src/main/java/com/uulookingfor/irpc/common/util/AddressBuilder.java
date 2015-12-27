@@ -5,14 +5,16 @@ import java.net.UnknownHostException;
 
 import com.uulookingfor.irpc.common.domain.IrpcCommonConstants;
 
+/**
+ * @author suxiong.sx 
+ */
 public class AddressBuilder {
 	
 	public static String localAddress() throws UnknownHostException{
 		
 		StringBuffer localAddressBuffer = new StringBuffer();
 		
-		//String ip = InetAddress.getLocalHost().getHostAddress();
-		String ip = "127.0.0.1";
+		String ip = InetAddress.getLocalHost().getHostAddress();
 
 		int port = IrpcCommonConstants.DEF_SERVER_PORT;
 		

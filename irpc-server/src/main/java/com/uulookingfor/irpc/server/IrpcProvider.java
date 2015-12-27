@@ -17,6 +17,9 @@ import lombok.Getter;
 import lombok.NonNull;
 import lombok.Setter;
 
+/**
+ * @author suxiong.sx 
+ */
 public class IrpcProvider {
 	
 	@Getter @Setter private IrpcProviderMetaData irpcProviderMetaData = new IrpcProviderMetaData();

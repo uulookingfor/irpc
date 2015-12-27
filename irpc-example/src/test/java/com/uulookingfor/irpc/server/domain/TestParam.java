@@ -3,6 +3,9 @@ package com.uulookingfor.irpc.server.domain;
 import lombok.Getter;
 import lombok.Setter;
 
+/**
+ * @author suxiong.sx 
+ */
 public class TestParam {
 	
 	@Getter @Setter private String sParam;

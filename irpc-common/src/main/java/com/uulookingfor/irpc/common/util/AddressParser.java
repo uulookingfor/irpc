@@ -2,6 +2,9 @@ package com.uulookingfor.irpc.common.util;
 
 import lombok.NonNull;
 
+/**
+ * @author suxiong.sx 
+ */
 public class AddressParser {
 	
 	public static final int ADDRESS_FIELD_NUM = 2;

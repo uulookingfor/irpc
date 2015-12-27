@@ -2,6 +2,9 @@ package com.uulookingfor.irpc.client.exception;
 
 import lombok.Getter;
 
+/**
+ * @author suxiong.sx 
+ */
 public enum IrpcClientExceptionCode {
 	
 	IRPC_CLIENT_UNKNOWN(1000),

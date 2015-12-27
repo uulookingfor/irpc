@@ -8,6 +8,9 @@ import lombok.NonNull;
 
 import com.google.common.collect.Maps;
 
+/**
+ * @author suxiong.sx 
+ */
 public class IrpcProviderHolder {
 	
 	private static final Map<String, IrpcProvider> providers = Maps.newConcurrentMap();

@@ -3,6 +3,9 @@ package com.uulookingfor.irpc.common;
 import lombok.Getter;
 import lombok.Setter;
 
+/**
+ * @author suxiong.sx 
+ */
 public class IrpcMetaData {
 	
 	@Getter @Setter private String group ;

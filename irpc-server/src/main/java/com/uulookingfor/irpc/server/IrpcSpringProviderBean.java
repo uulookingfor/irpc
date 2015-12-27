@@ -7,6 +7,10 @@ import lombok.Getter;
 import lombok.NonNull;
 import lombok.Setter;
 
+/**
+ * @author suxiong.sx 
+ * 
+ */
 public class IrpcSpringProviderBean{
 	
 	@Getter @Setter private String group ;

@@ -6,6 +6,9 @@ import com.uulookingfor.irpc.server.domain.IrpcServerConstants;
 
 import io.netty.util.concurrent.DefaultExecutorServiceFactory;
 
+/**
+ * @author suxiong.sx 
+ */
 public class IrpcMultiThreadExcutor implements IrpcServerConstants{
 	
 	public static final ExecutorService providerExcutor	= 

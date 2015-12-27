@@ -10,6 +10,9 @@ import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.MessageToByteEncoder;
 
+/**
+ * @author suxiong.sx 
+ */
 public class ConsumerProtocolEncoder extends MessageToByteEncoder<Object> implements IrpcClientContext{
 
 	@Override

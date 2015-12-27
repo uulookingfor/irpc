@@ -11,6 +11,9 @@ import com.uulookingfor.irpc.server.exception.IrpcServerExceptionCode;
 
 import net.sf.cglib.reflect.FastClass;
 
+/**
+ * @author suxiong.sx 
+ */
 public class CglibFastClass{
 
 	private static final Map<Class<?>, FastClass> fastClassCache = Maps.newConcurrentMap();

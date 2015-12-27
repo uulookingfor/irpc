@@ -2,6 +2,9 @@ package com.uulookingfor.irpc.client.transport.netty.future;
 
 import com.google.common.util.concurrent.AbstractFuture;
 
+/**
+ * @author suxiong.sx 
+ */
 public class IrpcRequestFuture<T> extends AbstractFuture<T>{
 	
 	@Override

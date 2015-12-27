@@ -5,6 +5,9 @@ import com.uulookingfor.irpc.common.util.UidGenerator.Uid;
 import lombok.Getter;
 import lombok.Setter;
 
+/**
+ * @author suxiong.sx 
+ */
 public class IrpcConsumerTransPack {
 	
 	@Getter @Setter private IrpcConsumerMetaData irpcConsumerMetaDate;

@@ -1,5 +1,7 @@
 package com.uulookingfor.irpc.server.domain;
 
+
+
 public interface IrpcServerConstants {
 	
 	public static final String BOSS_THREAD_FACTORY = "boss.thread.factory";

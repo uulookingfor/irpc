@@ -10,6 +10,9 @@ import com.uulookingfor.irpc.common.server.IrpcProviderTransPack;
 import io.netty.channel.ChannelHandlerAdapter;
 import io.netty.channel.ChannelHandlerContext;
 
+/**
+ * @author suxiong.sx 
+ */
 public class ConsumerAdapter extends ChannelHandlerAdapter implements IrpcClientContext{
 
 	@Override

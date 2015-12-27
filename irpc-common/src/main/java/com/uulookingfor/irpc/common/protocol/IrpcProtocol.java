@@ -19,7 +19,10 @@ import lombok.Getter;
 import lombok.NonNull;
 import lombok.Setter;
 
+
 /**
+ * @author suxiong.sx
+ *  
  * Request Protocol
  * [0,3] 	protocal 
  * [4,4] 	version

@@ -8,6 +8,9 @@ import com.uulookingfor.irpc.client.proxy.handler.IrpcBlockingInvokeHandler;
 import com.uulookingfor.irpc.client.proxy.handler.IrpcInvokeHandler;
 import com.uulookingfor.irpc.common.client.IrpcConsumerMetaData;
 
+/**
+ * @author suxiong.sx 
+ */
 public class IrpcProxy{
 	
 	@SuppressWarnings("unchecked")

@@ -2,6 +2,9 @@ package com.uulookingfor.irpc.server.exception;
 
 import lombok.Getter;
 
+/**
+ * @author suxiong.sx 
+ */
 public enum IrpcServerExceptionCode {
 	
 	IRPC_SERVER_UNKNOWN(2000),

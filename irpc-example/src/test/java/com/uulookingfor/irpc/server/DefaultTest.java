@@ -3,6 +3,9 @@ package com.uulookingfor.irpc.server;
 import com.uulookingfor.irpc.server.domain.TestParam;
 import com.uulookingfor.irpc.server.domain.TestResult;
 
+/**
+ * @author suxiong.sx 
+ */
 public class DefaultTest implements TestService{
 
 	private static final String SERVER_HELLO = "hello world from irpc servier side";

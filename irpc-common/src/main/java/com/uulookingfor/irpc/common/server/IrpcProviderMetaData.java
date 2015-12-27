@@ -6,6 +6,9 @@ import lombok.Setter;
 import com.uulookingfor.irpc.common.IrpcMetaData;
 import com.uulookingfor.irpc.common.domain.IrpcCommonConstants;
 
+/**
+ * @author suxiong.sx 
+ */
 public class IrpcProviderMetaData extends IrpcMetaData implements IrpcCommonConstants{
 
 	@Getter @Setter private long timeoutMills = IGNORE_TIME_OUT;

@@ -18,6 +18,9 @@ import com.uulookingfor.irpc.common.client.IrpcConsumerTransPack;
 import com.uulookingfor.irpc.common.server.IrpcProviderTransPack;
 import com.uulookingfor.irpc.common.util.UidGenerator.Uid;
 
+/**
+ * @author suxiong.sx 
+ */
 public class IrpcBlockingInvokeHandler implements IrpcInvokeHandler, IrpcClientContext{
 
 	private IrpcConsumerMetaData irpcConsumerMetaData;

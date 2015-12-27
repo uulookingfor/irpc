@@ -1,5 +1,8 @@
 package com.uulookingfor.irpc.client.domain;
 
+/**
+ * @author suxiong.sx 
+ */
 public interface IrpcClientConstants {
 	
 	public static final String DEFAULT_GROUP = "Irpc";

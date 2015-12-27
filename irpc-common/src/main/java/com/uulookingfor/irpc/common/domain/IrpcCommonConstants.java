@@ -1,5 +1,8 @@
 package com.uulookingfor.irpc.common.domain;
 
+/**
+ * @author suxiong.sx 
+ */
 public interface IrpcCommonConstants {
 	
 	public static final byte[] 	IPRC_PROTOCOL = {'I','r','p','c'};

@@ -15,6 +15,9 @@ import com.uulookingfor.irpc.client.domain.IrpcClientConstants;
 import com.uulookingfor.irpc.common.client.IrpcConsumerMetaData;
 import com.uulookingfor.irpc.common.util.AddressParser;
 
+/**
+ * @author suxiong.sx 
+ */
 public class IrpcNettyClientFactory implements IrpcClientConstants{
 	
 	public static Cache<String , IrpcNettyClient> cache = CacheBuilder.newBuilder()

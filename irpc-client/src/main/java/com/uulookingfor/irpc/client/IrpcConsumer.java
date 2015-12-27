@@ -11,6 +11,9 @@ import com.uulookingfor.irpc.client.exception.IrpcClientExceptionCode;
 import com.uulookingfor.irpc.client.proxy.IrpcProxy;
 import com.uulookingfor.irpc.common.client.IrpcConsumerMetaData;
 
+/**
+ * @author suxiong.sx 
+ */
 public class IrpcConsumer implements IrpcClientConstants, IrpcClientContext{
 	
 	private IrpcConsumerMetaData irpcConsumerMetaData = new IrpcConsumerMetaData();

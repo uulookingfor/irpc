@@ -1,5 +1,8 @@
 package com.uulookingfor.irpc.common.exception;
 
+/**
+ * @author suxiong.sx 
+ */
 public class IrpcCommonSerializeException extends IrpcCommonException{
 
 	private static final long serialVersionUID = -3404582893017334314L;

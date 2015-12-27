@@ -2,6 +2,9 @@ package com.uulookingfor.irpc.common.client;
 
 import com.uulookingfor.irpc.common.IrpcMetaData;
 
+/**
+ * @author suxiong.sx 
+ */
 public class IrpcConsumerMetaData extends IrpcMetaData {
 	
 	public String toString(){

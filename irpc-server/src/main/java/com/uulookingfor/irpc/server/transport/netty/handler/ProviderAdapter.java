@@ -15,6 +15,9 @@ import com.uulookingfor.irpc.server.executor.IrpcMultiThreadExcutor;
 import io.netty.channel.ChannelHandlerAdapter;
 import io.netty.channel.ChannelHandlerContext;
 
+/**
+ * @author suxiong.sx 
+ */
 public class ProviderAdapter extends ChannelHandlerAdapter {
 	
 	private static final ExecutorService providerExcutor = IrpcMultiThreadExcutor.providerExcutor;

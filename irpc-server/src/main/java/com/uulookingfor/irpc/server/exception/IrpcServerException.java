@@ -2,6 +2,9 @@ package com.uulookingfor.irpc.server.exception;
 
 import lombok.Getter;
 
+/**
+ * @author suxiong.sx 
+ */
 public class IrpcServerException extends Exception{
 
 	private static final long serialVersionUID = 4483209732907803402L;
