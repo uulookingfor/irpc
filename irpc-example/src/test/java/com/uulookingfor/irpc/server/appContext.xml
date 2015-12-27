@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+	<!-- just init once in spring context -->
+	<bean class="com.uulookingfor.irpc.server.transport.netty.IrpcNettyServer" init-method="start" />
+	
+	<!-- provider service -->
+	<bean id="testService" class="com.uulookingfor.irpc.server.DefaultTest" />
+	
+	<!-- server side reflected provider -->
+    <bean class="com.uulookingfor.irpc.server.IrpcSpringProviderBean" init-method="init">
+        <property name="group" value="Irpc" />
+        <property name="version" value="1.0.0" />
+        <property name="interfaceName" value="com.uulookingfor.irpc.server.TestService" />
+        <property name="instance" ref="testService" />
+    </bean> 
+
+</beans>
